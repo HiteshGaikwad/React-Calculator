@@ -30,6 +30,7 @@ const App=()=>{
       setSuccessMessage("");
       setResult("Please enter valid number");
       setAns("");
+      setSign("");
       return false;
     }else{
       setSuccessMessage("Success");
@@ -47,6 +48,8 @@ const App=()=>{
       setErrorMessage("Error");
       setSuccessMessage("");
       validateError();
+      setSign("");
+      setAns("")
       return false;
     } else{
       setResult("");
